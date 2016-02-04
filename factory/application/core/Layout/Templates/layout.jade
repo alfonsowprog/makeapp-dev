@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='stylesheets/styles.css')
+    body
+        include header
+
+        block content
+
+        include footer
+        
+if isDev
+    script(src="/javascripts/require/require.js")
+    each val in localJS
+       script(src=val)
+else
+    script(src="javascript/app.js")

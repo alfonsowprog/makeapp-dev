@@ -1,0 +1,52 @@
+{
+
+    "name"         : "Globals Module"
+
+,   "description"  : "Define globals sctripts, templates and libraries."
+
+,   "DefinedModules" : [  ]
+
+,   "Dependencies" : [  ]
+
+,   "Route"         : {
+
+        "BackScripts" : [
+
+            "**/*.js" 
+
+        ]
+
+    ,   "FrontScripts" : [
+
+            "**/*.js"
+
+        ]
+
+    ,   "Templates" : [
+
+            "**/*.jade" 
+
+        ]
+
+    ,   "Assets/libraries" : [
+
+            "**/*.js"       
+
+        ]
+    
+    ,   "Assets/sass" : [
+
+            "**/*.scss"
+
+        ]
+
+    ,   "Assets/images" : [
+
+            "**/*.*"
+
+        ]
+
+    }
+
+    
+}

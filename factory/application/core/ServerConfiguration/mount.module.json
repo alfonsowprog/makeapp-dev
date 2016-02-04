@@ -1,0 +1,19 @@
+{
+
+    "name" : "ServerConfiguration"
+
+,   "description" : "Server configuration."
+
+,   "DefinedModules" : [  ]
+
+,   "Dependencies" : [  ]
+
+,   "Mount" : {
+
+        "Server" : [
+
+            "**/*.js" 
+
+        ]
+    }    
+}

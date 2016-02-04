@@ -1,0 +1,63 @@
+--
+---------------------------------------------------------------------------------------------
+Build-WS.js:
+
+- This file compile all files and export to express folder defined on routes.config.json.
+
+
+
+--
+---------------------------------------------------------------------------------------------
+moun.module.json
+
+- Files is use for Build-WS.js, this file define files dependence for this model. It support specific files.
+
+Syntax Reference:
+
+{
+    "push" : {
+
+        "BackScript"   : [ "**/*.js"      ] // or [ "home.services.js", "home.gets.js" ... ]
+
+    ,   "FrontScript"  : [ "**/*.js"      ] // same to above.
+
+    ,   "Templates"    : [ "**/*.jade"    ] // same to above.
+
+    ,   "Sass"         : [ "**/*.scss"    ] // same to above.
+
+    ,   "Images"       : [ "**/*.jpg"     ] // same to above.
+
+    }
+}
+
+
+
+--
+---------------------------------------------------------------------------------------------
+app.modules.json
+
+- This file define an application and include the modules required for this.
+
+Syntax Reference 
+
+{
+    "name"     : "app"
+
+,   "version"  : "0.0.1"
+
+,   "includes" : {
+
+        "core" : {
+
+            "index@0.0.1" : { "listener-url" : "/", "end-point" : "index" }
+
+        }
+
+    ,   "extends" : {}
+    }
+}
+
+
+
+Old Codes
+{ "name" : "app.js", "src" : "public/javascripts", "minify" : true, "combine" : true }

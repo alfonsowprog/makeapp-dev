@@ -1,0 +1,27 @@
+{
+    "name"        : "Core"
+
+,   "description" : ""
+
+,   "version"     : "0.0.1"
+
+,   "includes"    : {
+
+        "core" : [
+
+            "Globals"
+
+        ,   "Layout"
+
+        ,   {
+        		"name"		   : "Home"
+        	,	"listener-url" : "/"
+        	,	"end-point"    : "index"
+        	}
+
+        ]
+
+    ,   "extends" : []
+    
+    }
+}

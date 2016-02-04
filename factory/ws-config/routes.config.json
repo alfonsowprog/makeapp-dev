@@ -1,0 +1,8 @@
+{
+    "BackScripts"      : { "name" : "routers.js", "path" : "routes", "minify" : true, "combine" : true, "watch" : true }
+,   "Templates"        : { "path" : "views", "watch" : true }
+,   "FrontScripts"     : { "name" : "app.js", "path" : "public/javascripts", "minify" : true, "combine" : true, "watch" : true }
+,   "Assets/libraries" : { "name" : "app.js", "path" : "public/javascripts", "minify" : true, "combine" : true, "watch" : true }
+,   "Assets/sass"      : { "path" : "public/stylesheets", "watch" : true, "sass_compilation" : true }
+,   "Assets/images"    : { "path" : "public/images" }
+}

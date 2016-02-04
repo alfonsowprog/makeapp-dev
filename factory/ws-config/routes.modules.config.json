@@ -1,0 +1,42 @@
+{
+  "RouteFiles": {
+    "BackScripts": [
+      "application/core/Globals/BackScripts/**/*.js",
+      "application/core/Layout/BackScripts/**/*.js",
+      "application/core/Home/BackScripts/**/*.js"
+    ],
+    "FrontScripts": [
+      "application/core/Globals/FrontScripts/**/*.js",
+      "application/core/Layout/FrontScripts/**/*.js",
+      "application/core/Home/FrontScripts/**/*.js"
+    ],
+    "Templates": [
+      "application/core/Globals/Templates/**/*.jade",
+      "application/core/Layout/Templates/**/*.jade",
+      "application/core/Home/Templates/**/*.jade"
+    ],
+    "Assets/libraries": [
+      "application/core/Globals/Assets/libraries/**/*.js",
+      "application/core/Layout/Assets/libraries/**/*.js",
+      "application/core/Home/Assets/libraries/**/*.js"
+    ],
+    "Assets/sass": [
+      "application/core/Globals/Assets/sass/**/*.scss",
+      "application/core/Layout/Assets/sass/**/*.scss",
+      "application/core/Home/Assets/sass/**/*.scss"
+    ],
+    "Assets/images": [
+      "application/core/Globals/Assets/images/**/*.*",
+      "application/core/Layout/Assets/images/**/*.*",
+      "application/core/Home/Assets/images/**/*.*"
+    ]
+  },
+  "paths": [
+    "/javascripts/angular/angular.js",
+    "/javascripts/jquery/jquery.js",
+    "/javascripts/jquery/jquery.masonry.min.js",
+    "/javascripts/require/require.js",
+    "/javascripts/sweetalert/sweetalert.min.js",
+    "/javascripts/underscore/underscore.js"
+  ]
+}

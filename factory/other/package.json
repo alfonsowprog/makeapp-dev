@@ -1,0 +1,33 @@
+{
+  "name": "smartapp-sandbox",
+  "folderapp" : "SmartApp-sandbox",
+  "description": "SmartApp dev account",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "angular": "^1.4.6",
+    "clean": "^4.0.1",
+    "del": "^2.0.2",
+    "fs-extra": "^0.26.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-data": "^1.2.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-minify": "0.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-using": "0.0.1",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.5",
+    "jshint-stylish": "^2.0.1",
+    "mongodb": "^2.0.44",
+    "require-dir": "^0.3.0",
+    "underscore": "^1.8.3"
+  },
+  "main": "app.js",
+  "author": "@lphot",
+  "license": "ISC"
+}

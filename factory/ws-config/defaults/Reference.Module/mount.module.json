@@ -1,0 +1,41 @@
+{
+    
+    "name"         : ""
+
+,   "description"  : ""
+
+,   "dependencies" : []
+
+,   "push"         : {
+
+        "BackScripts" : [
+
+            "**/*.js" 
+
+        ]
+
+    ,   "FrontScripts" : [
+
+            "**/*.js"
+
+        ]
+
+    ,   "Templates" : [
+
+            "**/*.jade" 
+
+        ]
+
+    ,   "Assets" : [
+
+            "libraries/**/*.js"
+        
+        ,   "sass/**/*.scss"
+        
+        ,   "images/**/*.*"
+
+        ]
+    
+    }
+
+}

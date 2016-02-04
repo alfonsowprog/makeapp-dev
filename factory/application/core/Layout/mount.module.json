@@ -1,0 +1,50 @@
+{
+
+    "name"         : "Layout Module"
+
+,   "description"  : "Define layout code, templates and libraries."
+
+,   "DefinedModules" : [  ]
+
+,   "Dependencies" : [  ]
+
+,   "Route"         : {
+
+        "BackScripts" : [
+
+            "**/*.js" 
+
+        ]
+
+    ,   "FrontScripts" : [
+
+            "**/*.js"
+
+        ]
+
+    ,   "Templates" : [
+
+            "**/*.jade" 
+
+        ]
+
+    ,   "Assets/libraries" : [
+
+            "**/*.js"       
+
+        ]
+    
+    ,   "Assets/sass" : [
+
+            "**/*.scss"
+
+        ]
+
+    ,   "Assets/images" : [
+
+            "**/*.*"
+
+        ]
+
+    }    
+}
